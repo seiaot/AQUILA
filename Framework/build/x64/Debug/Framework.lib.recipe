@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>J:\24CU0102_MyPC\ゲームプログラミング\2年\開発環境\実習用フレームワーク_20250516_3D化+S\Framework\bin\x64\Debug\PS_NoTex_NoLit.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>J:\24CU0102_MyPC\ゲームプログラミング\2年\開発環境\実習用フレームワーク_20250516_3D化+S\Framework\bin\x64\Debug\PS_Tex_NoLit.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>J:\24CU0102_MyPC\ゲームプログラミング\2年\開発環境\実習用フレームワーク_20250516_3D化+S\Framework\bin\x64\Debug\VS_Default.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

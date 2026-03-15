@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Fwk\Animation\Animation.cpp" />
+    <ClCompile Include="Source\Fwk\Asset\Asset.cpp" />
+    <ClCompile Include="Source\Fwk\Asset\AssetManager.cpp" />
+    <ClCompile Include="Source\Fwk\Asset\AssetModel.cpp" />
+    <ClCompile Include="Source\Fwk\Asset\AssetMP3.cpp" />
+    <ClCompile Include="Source\Fwk\Asset\AssetText.cpp" />
+    <ClCompile Include="Source\Fwk\Asset\AssetTexture.cpp" />
+    <ClCompile Include="Source\Fwk\Asset\AssetWave.cpp" />
+    <ClCompile Include="Source\Fwk\Audio\MP3Sound.cpp" />
+    <ClCompile Include="Source\Fwk\Audio\SoundSource.cpp" />
+    <ClCompile Include="Source\Fwk\Audio\WaveSound.cpp" />
+    <ClCompile Include="Source\Fwk\Collision\Collider.cpp" />
+    <ClCompile Include="Source\Fwk\Collision\CollisionManager.cpp" />
+    <ClCompile Include="Source\Fwk\Collision\CollisionShape.cpp" />
+    <ClCompile Include="Source\Fwk\Data\CSVData.cpp" />
+    <ClCompile Include="Source\Fwk\Data\DataUtil.cpp" />
+    <ClCompile Include="Source\Fwk\Data\KeyValueData.cpp" />
+    <ClCompile Include="Source\Fwk\Debug\DebugLog.cpp" />
+    <ClCompile Include="Source\Fwk\File\CSVFile.cpp" />
+    <ClCompile Include="Source\Fwk\File\KeyValueFile.cpp" />
+    <ClCompile Include="Source\Fwk\File\TextFile.cpp" />
+    <ClCompile Include="Source\Fwk\Framework.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\Camera.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\Font.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\IDrawable.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\LineSegments.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\RenderManager.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\RenderObject.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\Sprite.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\SpriteFont.cpp" />
+    <ClCompile Include="Source\Fwk\Graphics\Texture.cpp" />
+    <ClCompile Include="Source\Fwk\Shape\Shape.cpp" />
+    <ClCompile Include="Source\Fwk\Time\FPSMeasure.cpp" />
+    <ClCompile Include="Source\Fwk\Time\Time.cpp" />
+    <ClCompile Include="Source\Lib\Audio\Audio.cpp" />
+    <ClCompile Include="Source\Lib\Audio\SourceVoice.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\CommandList.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\CommandQueue.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\ConstantBuffer.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\DepthTarget.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\DescriptorHeap.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\Fence.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\Graphics.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\IndexBuffer.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\Material.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\MeshIB.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\PipelineState.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\RenderTarget.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\ResMesh.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\ResShader.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\RootSignature.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\TextureSRV.cpp" />
+    <ClCompile Include="Source\Lib\Graphics\VertexBuffer.cpp" />
+    <ClCompile Include="Source\Lib\Math\Vector.cpp" />
+    <ClCompile Include="Source\Lib\System\Gamepad.cpp" />
+    <ClCompile Include="Source\Lib\System\Input.cpp" />
+    <ClCompile Include="Source\Lib\System\Window.cpp" />
+    <ClCompile Include="Source\Lib\Util\FileUtil.cpp" />
+    <ClCompile Include="Source\Lib\Util\Log.cpp" />
+    <ClCompile Include="Source\Lib\Util\StringUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Fwk\Animation\Animation.h" />
+    <ClInclude Include="Include\Fwk\Asset\Asset.h" />
+    <ClInclude Include="Include\Fwk\Asset\AssetManager.h" />
+    <ClInclude Include="Include\Fwk\Asset\AssetModel.h" />
+    <ClInclude Include="Include\Fwk\Asset\AssetMP3.h" />
+    <ClInclude Include="Include\Fwk\Asset\AssetText.h" />
+    <ClInclude Include="Include\Fwk\Asset\AssetTexture.h" />
+    <ClInclude Include="Include\Fwk\Asset\AssetWave.h" />
+    <ClInclude Include="Include\Fwk\Audio\IWaveData.h" />
+    <ClInclude Include="Include\Fwk\Audio\MP3Sound.h" />
+    <ClInclude Include="Include\Fwk\Audio\SoundSource.h" />
+    <ClInclude Include="Include\Fwk\Audio\WaveSound.h" />
+    <ClInclude Include="Include\Fwk\Collision\Collider.h" />
+    <ClInclude Include="Include\Fwk\Collision\CollisionManager.h" />
+    <ClInclude Include="Include\Fwk\Collision\CollisionShape.h" />
+    <ClInclude Include="Include\Fwk\Collision\CollisionTypes.h" />
+    <ClInclude Include="Include\Fwk\Data\CSVData.h" />
+    <ClInclude Include="Include\Fwk\Data\DataUtil.h" />
+    <ClInclude Include="Include\Fwk\Data\KeyValueData.h" />
+    <ClInclude Include="Include\Fwk\Debug\DebugLog.h" />
+    <ClInclude Include="Include\Fwk\File\CSVFile.h" />
+    <ClInclude Include="Include\Fwk\File\KeyValueFile.h" />
+    <ClInclude Include="Include\Fwk\File\TextFile.h" />
+    <ClInclude Include="Include\Fwk\Framework.h" />
+    <ClInclude Include="Include\Fwk\Graphics.h" />
+    <ClInclude Include="Include\Fwk\Graphics\Camera.h" />
+    <ClInclude Include="Include\Fwk\Graphics\Color.h" />
+    <ClInclude Include="Include\Fwk\Graphics\Font.h" />
+    <ClInclude Include="Include\Fwk\Graphics\IDrawable.h" />
+    <ClInclude Include="Include\Fwk\Graphics\RenderDef.h" />
+    <ClInclude Include="Include\Fwk\Graphics\RenderManager.h" />
+    <ClInclude Include="Include\Fwk\Graphics\RenderObject.h" />
+    <ClInclude Include="Include\Fwk\Graphics\Sprite.h" />
+    <ClInclude Include="Include\Fwk\Graphics\SpriteTypes.h" />
+    <ClInclude Include="Include\Fwk\Graphics\SpriteFont.h" />
+    <ClInclude Include="Include\Fwk\Graphics\Texture.h" />
+    <ClInclude Include="Include\Fwk\Shape\Shape.h" />
+    <ClInclude Include="Include\Fwk\Time\FPSMeasure.h" />
+    <ClInclude Include="Include\Fwk\Time\Time.h" />
+    <ClInclude Include="Include\Fwk\Version.h" />
+    <ClInclude Include="Include\Lib\Audio\Audio.h" />
+    <ClInclude Include="Include\Lib\Audio\SourceVoice.h" />
+    <ClInclude Include="Include\Lib\Audio\AudioDef.h" />
+    <ClInclude Include="Include\Lib\Graphics\CommandList.h" />
+    <ClInclude Include="Include\Lib\Graphics\CommandQueue.h" />
+    <ClInclude Include="Include\Lib\Graphics\ComPtr.h" />
+    <ClInclude Include="Include\Lib\Graphics\ConstantBuffer.h" />
+    <ClInclude Include="Include\Lib\Graphics\DepthTarget.h" />
+    <ClInclude Include="Include\Lib\Graphics\DescriptorHeap.h" />
+    <ClInclude Include="Include\Lib\Graphics\Fence.h" />
+    <ClInclude Include="Include\Lib\Graphics\Graphics.h" />
+    <ClInclude Include="Include\Lib\Graphics\IndexBuffer.h" />
+    <ClInclude Include="Include\Lib\Graphics\Material.h" />
+    <ClInclude Include="Include\Lib\Graphics\MeshIB.h" />
+    <ClInclude Include="Include\Lib\Graphics\PipelineState.h" />
+    <ClInclude Include="Include\Lib\Graphics\Pool.h" />
+    <ClInclude Include="Include\Lib\Graphics\RenderTarget.h" />
+    <ClInclude Include="Include\Lib\Graphics\ResMesh.h" />
+    <ClInclude Include="Include\Lib\Graphics\ResShader.h" />
+    <ClInclude Include="Include\Lib\Graphics\RootSignature.h" />
+    <ClInclude Include="Include\Lib\Graphics\TextureSRV.h" />
+    <ClInclude Include="Include\Lib\Graphics\VertexBuffer.h" />
+    <ClInclude Include="Include\Lib\LibDef.h" />
+    <ClInclude Include="Include\Lib\Math\Math.h" />
+    <ClInclude Include="Include\Lib\Math\TAngle.h" />
+    <ClInclude Include="Include\Lib\Math\TSize.h" />
+    <ClInclude Include="Include\Lib\Math\TVector2.h" />
+    <ClInclude Include="Include\Lib\Math\TVector3.h" />
+    <ClInclude Include="Include\Lib\Math\Vector.h" />
+    <ClInclude Include="Include\Lib\System\Gamepad.h" />
+    <ClInclude Include="Include\Lib\System\Input.h" />
+    <ClInclude Include="Include\Lib\System\Window.h" />
+    <ClInclude Include="Include\Lib\Util\FileUtil.h" />
+    <ClInclude Include="Include\Lib\Util\Log.h" />
+    <ClInclude Include="Include\Lib\Util\StringUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resource\PS_NoTex_NoLit.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resource\PS_Tex_NoLit.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resource\VS_Default.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{16073de0-398f-49ca-9131-7031b3a3ae1a}</ProjectGuid>
+    <RootNamespace>Framework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Library\dxtk\include\;$(ProjectDir)Library\assimp\include\;$(ProjectDir)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Library\dxtk\lib\$(PlatformTarget)\$(Configuration);$(SolutionDir)Library\assimp\build\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent />
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Library\dxtk\include\;$(ProjectDir)Library\assimp\include\;$(ProjectDir)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Library\dxtk\lib\$(PlatformTarget)\$(Configuration);$(SolutionDir)Library\assimp\build\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent />
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Library\dxtk\include\;$(ProjectDir)Library\assimp\include\;$(ProjectDir)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Library\dxtk\lib\$(PlatformTarget)\$(Configuration);$(SolutionDir)Library\assimp\build\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent />
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Library\dxtk\include\;$(ProjectDir)Library\assimp\include\;$(ProjectDir)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Library\dxtk\lib\$(PlatformTarget)\$(Configuration);$(SolutionDir)Library\assimp\build\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent />
+    <Lib />
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

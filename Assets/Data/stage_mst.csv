@@ -1,0 +1,5 @@
+練習用ステージ,Data/mapdata0.txt,Data/enemy_arrangement0.csv
+初心者ステージ,Data/mapdata1.txt,Data/enemy_arrangement1.csv
+中級者ステージ,Data/mapdata2.txt,Data/enemy_arrangement2.csv
+上級者ステージ,Data/mapdata3.txt,Data/enemy_arrangement3.csv
+達人用ステージ,Data/mapdata4.txt,Data/enemy_arrangement4.csv

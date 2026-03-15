@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソースファイル">
+      <UniqueIdentifier>{09d63522-d8ec-4f98-ba9a-094e05ab0d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib">
+      <UniqueIdentifier>{3ad8bd7b-aa7c-444b-8353-80faa74af499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Graphics">
+      <UniqueIdentifier>{aa08adf1-0e30-413b-96da-304e4ea47cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Util">
+      <UniqueIdentifier>{7276f105-0dc3-4cc9-bc6e-8f83de5c7d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk">
+      <UniqueIdentifier>{02a8788b-c4fb-410a-bd5a-f5552783aaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\System">
+      <UniqueIdentifier>{aedecdb1-1777-48a5-b27b-2f41ed45b9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Asset">
+      <UniqueIdentifier>{75d0765c-9b77-435d-b0d1-d3cdba747768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Shape">
+      <UniqueIdentifier>{9529f569-2fa9-47ff-a3ab-20c92d9d8111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Graphics">
+      <UniqueIdentifier>{24813e95-7b5d-4a9d-b2b5-e29d4fb58068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Time">
+      <UniqueIdentifier>{3724688b-a814-4f73-8570-669402236021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Animation">
+      <UniqueIdentifier>{2e5f74f7-5ece-4c2d-a35b-68d81a539277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル">
+      <UniqueIdentifier>{e28d4ef7-5546-4eb7-b55c-749dfbd06984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk">
+      <UniqueIdentifier>{ac4f64ef-1bee-487d-b9a1-fcc4d5e641a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Animation">
+      <UniqueIdentifier>{92170304-2007-454f-be6c-b4d8295161a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Asset">
+      <UniqueIdentifier>{a3135892-80de-4e4d-8f1e-4291dd3fcca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Graphics">
+      <UniqueIdentifier>{18398559-de33-4e7b-a004-800dee598736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Shape">
+      <UniqueIdentifier>{299fb420-83ee-46fd-8180-284a0abde179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Time">
+      <UniqueIdentifier>{8041d63a-def2-4fcd-bf15-77c1890838c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Lib">
+      <UniqueIdentifier>{4257fbae-49e3-4ad6-bd5b-8fc239742b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Lib\Graphics">
+      <UniqueIdentifier>{09b08e00-0020-40a1-a53f-3ad80a91e1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Lib\System">
+      <UniqueIdentifier>{e56b0a17-eb76-44d8-9ade-527902981ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Lib\Util">
+      <UniqueIdentifier>{7bd44441-d2e6-464c-b451-1dbf016fea9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Debug">
+      <UniqueIdentifier>{ebc6d9b8-91f4-4c1a-9760-b87dfa45e008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Debug">
+      <UniqueIdentifier>{d1fcd337-dfad-4254-85aa-d5ac081061e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\File">
+      <UniqueIdentifier>{445bf7c5-8b9b-4fe7-a869-61772d850cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\File">
+      <UniqueIdentifier>{e9e9d04c-5e00-4dfa-8fd7-5193c7caed21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Data">
+      <UniqueIdentifier>{737a5208-e0c4-4254-9554-4b0578c49a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Data">
+      <UniqueIdentifier>{9ec9e510-7569-42d8-a4c6-012fcc9cf89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Lib\Audio">
+      <UniqueIdentifier>{f84325e4-218f-4d05-b3d2-d4642fdfde7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Audio">
+      <UniqueIdentifier>{0a38ee53-1db0-4ab6-accf-1f05d5d3c5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Audio">
+      <UniqueIdentifier>{6c976aa9-8abd-4535-b37e-1256f247bdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Audio">
+      <UniqueIdentifier>{7c9c20d2-53c9-4e57-90d9-c0188546244b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Lib\Math">
+      <UniqueIdentifier>{a460f70c-2308-4fb2-a735-182068021705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Lib\Math">
+      <UniqueIdentifier>{f0efaa30-d6e2-46f0-9af9-b05b0b39a22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダファイル\Fwk\Collision">
+      <UniqueIdentifier>{74a7b8ee-d1ec-4916-8312-c8a98e67a823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Fwk\Collision">
+      <UniqueIdentifier>{791e7784-c6b5-4cb5-b314-223c62a391e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Lib\Util\FileUtil.cpp">
+      <Filter>ソース ファイル\Lib\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\System\Window.cpp">
+      <Filter>ソース ファイル\Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Framework.cpp">
+      <Filter>ソース ファイル\Fwk</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Asset\Asset.cpp">
+      <Filter>ソース ファイル\Fwk\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Asset\AssetManager.cpp">
+      <Filter>ソース ファイル\Fwk\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Asset\AssetModel.cpp">
+      <Filter>ソース ファイル\Fwk\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Asset\AssetTexture.cpp">
+      <Filter>ソース ファイル\Fwk\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\Texture.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\Sprite.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Shape\Shape.cpp">
+      <Filter>ソース ファイル\Fwk\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\RenderManager.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\IDrawable.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\System\Input.cpp">
+      <Filter>ソース ファイル\Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\SpriteFont.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\Font.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Time\Time.cpp">
+      <Filter>ソース ファイル\Fwk\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Time\FPSMeasure.cpp">
+      <Filter>ソース ファイル\Fwk\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Animation\Animation.cpp">
+      <Filter>ソース ファイル\Fwk\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\CommandList.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\CommandQueue.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\ConstantBuffer.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\DepthTarget.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\DescriptorHeap.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\Fence.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\Graphics.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\IndexBuffer.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\Material.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\MeshIB.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\PipelineState.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\RenderTarget.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\ResMesh.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\ResShader.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\RootSignature.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\TextureSRV.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Graphics\VertexBuffer.cpp">
+      <Filter>ソース ファイル\Lib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\RenderObject.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Util\Log.cpp">
+      <Filter>ソース ファイル\Lib\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Debug\DebugLog.cpp">
+      <Filter>ソース ファイル\Fwk\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Util\StringUtil.cpp">
+      <Filter>ソース ファイル\Lib\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\System\Gamepad.cpp">
+      <Filter>ソース ファイル\Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Asset\AssetText.cpp">
+      <Filter>ソース ファイル\Fwk\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\File\TextFile.cpp">
+      <Filter>ソース ファイル\Fwk\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\File\CSVFile.cpp">
+      <Filter>ソース ファイル\Fwk\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Data\CSVData.cpp">
+      <Filter>ソース ファイル\Fwk\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Data\KeyValueData.cpp">
+      <Filter>ソース ファイル\Fwk\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\File\KeyValueFile.cpp">
+      <Filter>ソース ファイル\Fwk\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Data\DataUtil.cpp">
+      <Filter>ソース ファイル\Fwk\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Audio\Audio.cpp">
+      <Filter>ソース ファイル\Lib\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Asset\AssetWave.cpp">
+      <Filter>ソース ファイル\Fwk\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Audio\SourceVoice.cpp">
+      <Filter>ソース ファイル\Lib\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Audio\WaveSound.cpp">
+      <Filter>ソース ファイル\Fwk\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Audio\SoundSource.cpp">
+      <Filter>ソース ファイル\Fwk\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\Camera.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Asset\AssetMP3.cpp">
+      <Filter>ソース ファイル\Fwk\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Audio\MP3Sound.cpp">
+      <Filter>ソース ファイル\Fwk\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Collision\Collider.cpp">
+      <Filter>ソース ファイル\Fwk\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Collision\CollisionShape.cpp">
+      <Filter>ソース ファイル\Fwk\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Collision\CollisionManager.cpp">
+      <Filter>ソース ファイル\Fwk\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fwk\Graphics\LineSegments.cpp">
+      <Filter>ソース ファイル\Fwk\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lib\Math\Vector.cpp">
+      <Filter>ソース ファイル\Lib\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Fwk\Animation\Animation.h">
+      <Filter>ヘッダファイル\Fwk\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Asset\AssetTexture.h">
+      <Filter>ヘッダファイル\Fwk\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Asset\Asset.h">
+      <Filter>ヘッダファイル\Fwk\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Asset\AssetManager.h">
+      <Filter>ヘッダファイル\Fwk\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Asset\AssetModel.h">
+      <Filter>ヘッダファイル\Fwk\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\RenderManager.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\Sprite.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\SpriteFont.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\Texture.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\Font.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\IDrawable.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\RenderDef.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Shape\Shape.h">
+      <Filter>ヘッダファイル\Fwk\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Time\FPSMeasure.h">
+      <Filter>ヘッダファイル\Fwk\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Time\Time.h">
+      <Filter>ヘッダファイル\Fwk\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Framework.h">
+      <Filter>ヘッダファイル\Fwk</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\CommandList.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\CommandQueue.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\ConstantBuffer.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\DepthTarget.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\DescriptorHeap.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\Fence.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\Graphics.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\IndexBuffer.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\Material.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\MeshIB.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\PipelineState.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\Pool.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\RenderTarget.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\ResMesh.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\ResShader.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\RootSignature.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\TextureSRV.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\VertexBuffer.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\System\Input.h">
+      <Filter>ヘッダファイル\Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\System\Window.h">
+      <Filter>ヘッダファイル\Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\LibDef.h">
+      <Filter>ヘッダファイル\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Util\FileUtil.h">
+      <Filter>ヘッダファイル\Lib\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Graphics\ComPtr.h">
+      <Filter>ヘッダファイル\Lib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\RenderObject.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Util\Log.h">
+      <Filter>ヘッダファイル\Lib\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Debug\DebugLog.h">
+      <Filter>ヘッダファイル\Fwk\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Util\StringUtil.h">
+      <Filter>ヘッダファイル\Lib\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Version.h">
+      <Filter>ヘッダファイル\Fwk</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\System\Gamepad.h">
+      <Filter>ヘッダファイル\Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Asset\AssetText.h">
+      <Filter>ヘッダファイル\Fwk\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\File\TextFile.h">
+      <Filter>ヘッダファイル\Fwk\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\File\CSVFile.h">
+      <Filter>ヘッダファイル\Fwk\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Data\CSVData.h">
+      <Filter>ヘッダファイル\Fwk\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\File\KeyValueFile.h">
+      <Filter>ヘッダファイル\Fwk\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Data\KeyValueData.h">
+      <Filter>ヘッダファイル\Fwk\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Data\DataUtil.h">
+      <Filter>ヘッダファイル\Fwk\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Audio\Audio.h">
+      <Filter>ヘッダファイル\Lib\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Asset\AssetWave.h">
+      <Filter>ヘッダファイル\Fwk\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Audio\SourceVoice.h">
+      <Filter>ヘッダファイル\Lib\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Audio\AudioDef.h">
+      <Filter>ヘッダファイル\Lib\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Audio\WaveSound.h">
+      <Filter>ヘッダファイル\Fwk\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Audio\SoundSource.h">
+      <Filter>ヘッダファイル\Fwk\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Math\Vector.h">
+      <Filter>ヘッダファイル\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\Camera.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\SpriteTypes.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Asset\AssetMP3.h">
+      <Filter>ヘッダファイル\Fwk\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Audio\MP3Sound.h">
+      <Filter>ヘッダファイル\Fwk\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Audio\IWaveData.h">
+      <Filter>ヘッダファイル\Fwk\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics.h">
+      <Filter>ヘッダファイル\Fwk</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Math\TVector2.h">
+      <Filter>ヘッダファイル\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Math\TVector3.h">
+      <Filter>ヘッダファイル\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Math\Math.h">
+      <Filter>ヘッダファイル\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Collision\Collider.h">
+      <Filter>ヘッダファイル\Fwk\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Collision\CollisionShape.h">
+      <Filter>ヘッダファイル\Fwk\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Collision\CollisionManager.h">
+      <Filter>ヘッダファイル\Fwk\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Collision\CollisionTypes.h">
+      <Filter>ヘッダファイル\Fwk\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fwk\Graphics\Color.h">
+      <Filter>ヘッダファイル\Fwk\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Math\TSize.h">
+      <Filter>ヘッダファイル\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lib\Math\TAngle.h">
+      <Filter>ヘッダファイル\Lib\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resource\PS_Tex_NoLit.hlsl">
+      <Filter>リソースファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resource\VS_Default.hlsl">
+      <Filter>リソースファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resource\PS_NoTex_NoLit.hlsl">
+      <Filter>リソースファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
